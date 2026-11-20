@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Barbearia</h1>
+    </header>
+
+    <main>
+        <section class="principal">
+            <img class="banner" src="{% static 'imagem/image.png' %}" alt="Barbeiro atendendo cliente">
+            
+            <h2 class="titulo-centralizado">Sobre a Barbearia</h2>
+
+            <p>Localizada no coração da cidade a <strong>Barbearia</strong> traz para o mercado inovação em cortes de cabelos.</p>
+
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+            <button class="botao">Trabalhe conosco</button>
+        </section>
+
+        <section class="beneficios">
+            <h2 class="titulo-centralizado">Benefícios</h2>
+
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento aos Clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                </ul>
+                <img src="{% static 'imagem/barbeador.jpg' %}" class="imagem-beneficios" alt="Barbeiro atendendo cliente">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.principal {
+    background-color: #cccccc;
+    border: 1px solid #888888;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.principal p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+#missao {
+    font-size: 14px;
+}
+
+#missao strong {
+    color: #cc0000;
+}
+
+.botao {
+    display: block;
+    margin-top: 15px;
+    padding: 3px 8px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.beneficios {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.conteudo-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.lista-beneficios {
+    list-style: none;
+    padding: 0;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.imagem-beneficios {
+    width: 140px;
+    height: auto;
+}

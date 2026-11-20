@@ -11,7 +11,8 @@
 
 <body>
 
-    <form>
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
         <img src="{% static 'imagem/logo1.png' %}">
         <label for="matricula"> Matrícula</label>
         <input name="matricula" id="matricula" type="text" placeholder="Insira sua matrícula" autocomplete="True"
@@ -19,7 +20,7 @@
 
         <label> Senha</label>
         <input name="senha" id="senha" type="password" placeholder="Insira sua senha" autocomplete="false"
-            title="Senha do Usuário" alt="Senha do usuário logar">
+            title="Senha do Usuário" alt="Senha do usuário logar" required>
 
         <button id="login-button" type="submit">Login</button>
     </form>
